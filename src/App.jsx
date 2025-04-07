@@ -1,9 +1,11 @@
+import WelcomeScreen from "./components/Welcome"
 
 function App() {
 
 
   return (
     <>
+    <WelcomeScreen/>
     </>
   )
 }
