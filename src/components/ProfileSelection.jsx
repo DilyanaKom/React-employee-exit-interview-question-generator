@@ -15,11 +15,11 @@ export default function ProfileSelection(){
             id="position"
             className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
           >
-            <option value="" disabled selected>Select position type</option>
-            <option value="individual_contributor">Individual Contributor</option>
-            <option value="manager">Manager</option>
-            <option value="director">Director</option>
-            <option value="executive">Executive</option>
+            <option defaultValue="selected" disabled >Select position type</option>
+            <option defaultValue="individual_contributor">Individual Contributor</option>
+            <option defaultValue="manager">Manager</option>
+            <option defaultValue="director">Director</option>
+            <option defaultValue="executive">Executive</option>
           </select>
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -39,17 +39,17 @@ export default function ProfileSelection(){
             id="department"
             className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
           >
-            <option value="" disabled selected>Select department</option>
-            <option value="engineering">Engineering</option>
-            <option value="product">Product</option>
-            <option value="design">Design</option>
-            <option value="marketing">Marketing</option>
-            <option value="sales">Sales</option>
-            <option value="support">Customer Support</option>
-            <option value="operations">Operations</option>
-            <option value="hr">Human Resources</option>
-            <option value="finance">Finance</option>
-            <option value="other">Other</option>
+            <option defaultValue="selected" disabled >Select department</option>
+            <option defaultValue="engineering">Engineering</option>
+            <option defaultValue="product">Product</option>
+            <option defaultValue="design">Design</option>
+            <option defaultValue="marketing">Marketing</option>
+            <option defaultValue="sales">Sales</option>
+            <option defaultValue="support">Customer Support</option>
+            <option defaultValue="operations">Operations</option>
+            <option defaultValue="hr">Human Resources</option>
+            <option defaultValue="finance">Finance</option>
+            <option defaultValue="other">Other</option>
           </select>
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -69,12 +69,12 @@ export default function ProfileSelection(){
             id="tenure"
             className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
           >
-            <option value="" disabled selected>Select tenure</option>
-            <option value="less_than_1">Less than 1 year</option>
-            <option value="1_to_3">1-3 years</option>
-            <option value="3_to_5">3-5 years</option>
-            <option value="5_to_10">5-10 years</option>
-            <option value="more_than_10">More than 10 years</option>
+            <option defaultValue="selected" disabled >Select tenure</option>
+            <option defaultValue="less_than_1">Less than 1 year</option>
+            <option defaultValue="1_to_3">1-3 years</option>
+            <option defaultValue="3_to_5">3-5 years</option>
+            <option defaultValue="5_to_10">5-10 years</option>
+            <option defaultValue="more_than_10">More than 10 years</option>
           </select>
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -94,16 +94,16 @@ export default function ProfileSelection(){
             id="reason"
             className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
           >
-            <option value="" disabled selected>Select primary reason</option>
-            <option value="new_opportunity">Better opportunity elsewhere</option>
-            <option value="compensation">Compensation</option>
-            <option value="worklife">Work-life balance</option>
-            <option value="management">Management/leadership issues</option>
-            <option value="career_growth">Lack of career growth</option>
-            <option value="company_direction">Company direction/strategy</option>
-            <option value="relocation">Relocation</option>
-            <option value="retirement">Retirement</option>
-            <option value="other">Other</option>
+            <option defaultValue="selected" disabled>Select primary reason</option>
+            <option defaultValue="new_opportunity">Better opportunity elsewhere</option>
+            <option defaultValue="compensation">Compensation</option>
+            <option defaultValue="worklife">Work-life balance</option>
+            <option defaultValue="management">Management/leadership issues</option>
+            <option defaultValue="career_growth">Lack of career growth</option>
+            <option defaultValue="company_direction">Company direction/strategy</option>
+            <option defaultValue="relocation">Relocation</option>
+            <option defaultValue="retirement">Retirement</option>
+            <option defaultValue="other">Other</option>
           </select>
           <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -1,12 +1,17 @@
+import { Routes, Route } from "react-router"
 import WelcomeScreen from "./components/Welcome"
+import ProfileSelection from "./components/ProfileSelection"
 
 function App() {
 
 
   return (
-    <>
-    <WelcomeScreen/>
-    </>
+
+    <Routes>
+      <Route index element={<WelcomeScreen/>} />
+      <Route path="/profile" element={<ProfileSelection/>}/>
+    </Routes>
+
   )
 }
 
