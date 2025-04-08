@@ -1,3 +1,5 @@
+import QuestionItem from "./QuestionItem";
+
 export default function Questions(){
     return(
         <div className="flex justify-center items-center min-h-screen bg-gray-50 p-4">
@@ -18,69 +20,7 @@ export default function Questions(){
     </div>
     
     <div className="space-y-6 mb-8">
-      {/* Question 1 */}
-      <div className="p-4 border border-gray-200 rounded-md hover:bg-gray-50 transition-colors">
-        <div className="flex justify-between">
-          <h3 className="font-medium text-gray-800 mb-1">Question 1</h3>
-        </div>
-        <p className="text-gray-700">What were the primary factors that led to your decision to leave the company?</p>
-      </div>
-      
-      {/* Question 2 */}
-      <div className="p-4 border border-gray-200 rounded-md hover:bg-gray-50 transition-colors">
-        <div className="flex justify-between">
-          <h3 className="font-medium text-gray-800 mb-1">Question 2</h3>
-        </div>
-        <p className="text-gray-700">How would you describe the level of support you received to manage your team effectively?</p>
-      </div>
-      
-      {/* Question 3 */}
-      <div className="p-4 border border-gray-200 rounded-md hover:bg-gray-50 transition-colors">
-        <div className="flex justify-between">
-          <h3 className="font-medium text-gray-800 mb-1">Question 3</h3>
-        </div>
-        <p className="text-gray-700">What aspects of the engineering culture worked well, and what could be improved?</p>
-      </div>
-      
-      {/* Question 4 */}
-      <div className="p-4 border border-gray-200 rounded-md hover:bg-gray-50 transition-colors">
-        <div className="flex justify-between">
-          <h3 className="font-medium text-gray-800 mb-1">Question 4</h3>
-        </div>
-        <p className="text-gray-700">How would you rate the career growth opportunities for engineering managers at the company?</p>
-      </div>
-      
-      {/* Question 5 */}
-      <div className="p-4 border border-gray-200 rounded-md hover:bg-gray-50 transition-colors">
-        <div className="flex justify-between">
-          <h3 className="font-medium text-gray-800 mb-1">Question 5</h3>
-        </div>
-        <p className="text-gray-700">Did you feel the compensation and benefits package was competitive with the market?</p>
-      </div>
-      
-      {/* Question 6 */}
-      <div className="p-4 border border-gray-200 rounded-md hover:bg-gray-50 transition-colors">
-        <div className="flex justify-between">
-          <h3 className="font-medium text-gray-800 mb-1">Question 6</h3>
-        </div>
-        <p className="text-gray-700">What was your experience with work-life balance while managing your team?</p>
-      </div>
-      
-      {/* Question 7 */}
-      <div className="p-4 border border-gray-200 rounded-md hover:bg-gray-50 transition-colors">
-        <div className="flex justify-between">
-          <h3 className="font-medium text-gray-800 mb-1">Question 7</h3>
-        </div>
-        <p className="text-gray-700">How effective was communication from senior leadership about company direction and strategy?</p>
-      </div>
-      
-      {/* Question 8 */}
-      <div className="p-4 border border-gray-200 rounded-md hover:bg-gray-50 transition-colors">
-        <div className="flex justify-between">
-          <h3 className="font-medium text-gray-800 mb-1">Question 8</h3>
-        </div>
-        <p className="text-gray-700">What advice would you give to improve the experience for engineering managers?</p>
-      </div>
+     <QuestionItem />
     </div>
     
     {/* Action Buttons */}
