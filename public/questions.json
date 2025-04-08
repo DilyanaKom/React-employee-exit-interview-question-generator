@@ -1,0 +1,164 @@
+[
+    {
+      "id": 1,
+      "question": "What was your overall experience working at [Company Name]?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance", "other"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["other"]
+    },
+    {
+      "id": 2,
+      "question": "What were the most rewarding aspects of your role?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance", "other"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["other"]
+    },
+    {
+      "id": 3,
+      "question": "What specific challenges or obstacles did you face while working here?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["management/leadership issues", "lack of career growth", "company direction/strategy"]
+    },
+    {
+      "id": 4,
+      "question": "How do you feel about the level of communication and transparency within the company?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["management/leadership issues"]
+    },
+    {
+      "id": 5,
+      "question": "Did you have a clear understanding of your career progression and development opportunities here?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["lack of career growth"]
+    },
+    {
+      "id": 6,
+      "question": "What type of support or resources do you think could have helped you perform better in your role?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["work-life balance", "other"]
+    },
+    {
+      "id": 7,
+      "question": "How would you describe the company's work culture? Did it align with your personal values?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["company direction/strategy"]
+    },
+    {
+      "id": 8,
+      "question": "How did your role evolve over time, and were you satisfied with the changes?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["lack of career growth"]
+    },
+    {
+      "id": 9,
+      "question": "Did you feel your feedback was heard and acted upon by your managers or leadership?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["management/leadership issues"]
+    },
+    {
+      "id": 10,
+      "question": "What advice would you give to the company to improve the employee experience?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["other"]
+    },
+    {
+      "id": 11,
+      "question": "Was there anything that surprised you about the company, either positively or negatively?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["other"]
+    },
+    {
+      "id": 12,
+      "question": "How well do you think the company supports employee well-being and mental health?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["work-life balance"]
+    },
+    {
+      "id": 13,
+      "question": "If you could change one thing about your role, what would it be?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["other"]
+    },
+    {
+      "id": 14,
+      "question": "Would you consider returning to the company in the future? Why or why not?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["other"]
+    },
+    {
+      "id": 15,
+      "question": "What do you think the company could do to improve its leadership or management practices?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["management/leadership issues"]
+    },
+    {
+        "id": 16,
+        "question": "What could the company have done differently to help you better succeed in your role?",
+        "roles": ["individual contributor", "manager", "director", "executive"],
+        "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+        "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+        "reasons": ["lack of career growth", "work-life balance", "management/leadership issues", "other"]
+      },
+      {
+        "id": 17,
+        "question": "How did you feel about the opportunities for collaboration across different teams and departments?",
+        "roles": ["individual contributor", "manager", "director", "executive"],
+        "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+        "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+        "reasons": ["company direction/strategy", "lack of career growth"]
+      },
+      {
+        "id": 18,
+        "question": "Was the company’s performance review process effective in recognizing your contributions and providing feedback?",
+        "roles": ["individual contributor", "manager", "director", "executive"],
+        "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+        "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+        "reasons": ["lack of career growth", "management/leadership issues"]
+      },
+      {
+        "id": 19,
+        "question": "Did you feel that your role offered sufficient variety and challenge, or was it too repetitive?",
+        "roles": ["individual contributor", "manager", "director", "executive"],
+        "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+        "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+        "reasons": ["work-life balance", "other"]
+      },
+      {
+        "id": 20,
+        "question": "How would you rate the company’s response to external changes (e.g., market shifts, economic conditions) and how they affected your role or department?",
+        "roles": ["individual contributor", "manager", "director", "executive"],
+        "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+        "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+        "reasons": ["company direction/strategy", "relocation", "other"]
+      }
+
+  ]
+  
