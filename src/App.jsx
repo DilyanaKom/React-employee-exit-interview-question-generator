@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router"
 import WelcomeScreen from "./components/Welcome"
 import ProfileSelection from "./components/ProfileSelection"
+import Questions from "./components/Questions"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <Routes>
       <Route index element={<WelcomeScreen/>} />
       <Route path="/profile" element={<ProfileSelection/>}/>
+      <Route path="/questions" element={<Questions/>}/>
     </Routes>
 
   )
