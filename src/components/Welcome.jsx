@@ -10,7 +10,7 @@ export default function WelcomeScreen() {
                     <p className="text-sm text-center text-gray-600">Your feedback helps us improve</p>
                 </div>
                 <div className="mb-6">
-                    <p className="font-semibold text-gray-800">Time required: ~8 minutes</p>
+                    <p className="font-semibold text-gray-800">Time required: ~5 minutes</p>
                 </div>
                 <div className="mb-8">
                     <p className="font-medium text-gray-800 mb-1">Your responses are:</p>
