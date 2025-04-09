@@ -16,8 +16,8 @@ export default function Questions(){
     <div className="flex justify-between items-center mb-6">
       <h1 className="text-xl font-bold text-gray-800">Your Exit Interview Questions</h1>
       <div className="text-sm text-gray-500">
-        <span className="font-medium">Position:</span> {selections.position} • 
-        <span className="font-medium ml-2">Department:</span> {selections.department} •
+        <span className="font-medium">Position:</span> {selections.position} | 
+        <span className="font-medium ml-2">Department:</span> {selections.department} |
         <span className="font-medium ml-2">Tenure:</span> {selections.tenure}
       </div>
     </div>
