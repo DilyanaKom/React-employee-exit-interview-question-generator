@@ -19,7 +19,7 @@ export default function ProfileSelection() {
                                 id="position"
                                 className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
                             >
-                                <option defaultValue="selected" disabled >Select position type</option>
+                                <option defaultValue="" selected disabled >Select position type</option>
                                 <option defaultValue="individual_contributor">Individual Contributor</option>
                                 <option defaultValue="manager">Manager</option>
                                 <option defaultValue="director">Director</option>
@@ -43,7 +43,7 @@ export default function ProfileSelection() {
                                 id="department"
                                 className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
                             >
-                                <option defaultValue="selected" disabled >Select department</option>
+                                <option defaultValue="" selected disabled >Select department</option>
                                 <option defaultValue="engineering">Engineering</option>
                                 <option defaultValue="product">Product</option>
                                 <option defaultValue="design">Design</option>
@@ -73,7 +73,7 @@ export default function ProfileSelection() {
                                 id="tenure"
                                 className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
                             >
-                                <option defaultValue="selected" disabled >Select tenure</option>
+                                <option defaultValue="" selected disabled >Select tenure</option>
                                 <option defaultValue="less_than_1">Less than 1 year</option>
                                 <option defaultValue="1_to_3">1-3 years</option>
                                 <option defaultValue="3_to_5">3-5 years</option>
@@ -98,7 +98,7 @@ export default function ProfileSelection() {
                                 id="reason"
                                 className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
                             >
-                                <option defaultValue="selected" disabled>Select primary reason</option>
+                                <option defaultValue="" selected disabled>Select primary reason</option>
                                 <option defaultValue="new_opportunity">Better opportunity elsewhere</option>
                                 <option defaultValue="compensation">Compensation</option>
                                 <option defaultValue="worklife">Work-life balance</option>
@@ -125,7 +125,10 @@ export default function ProfileSelection() {
                                 className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50">
                                 Back
                             </button>
-                            <button className="px-6 py-2 text-sm font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600">
+                            <button 
+                            className="px-6 py-2 text-sm font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600"
+                            
+                            >
                                 Continue
                             </button>
                         </div>
