@@ -1,13 +1,16 @@
 import QuestionItem from "./QuestionItem";
 import { useNavigate, useLocation } from "react-router";
 
+import generateQuestions from "../utils/questionGenerator";
+
 export default function Questions(){
 
     const navigate = useNavigate();
 
     const location = useLocation();
     const selections = location?.state;
-    console.log(selections);
+    
+    const questions = generateQuestions(selections);
 
 
     return(
@@ -29,7 +32,8 @@ export default function Questions(){
     </div>
     
     <div className="space-y-6 mb-8">
-     <QuestionItem />
+        {questions.map((question, index) => <QuestionItem  key={question.id} content={question.question} questionNumber={index + 1}/>)}
+     
     </div>
     
     {/* Action Buttons */}
