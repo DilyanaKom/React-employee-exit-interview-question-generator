@@ -1,6 +1,10 @@
 import QuestionItem from "./QuestionItem";
+import { useNavigate } from "react-router";
 
 export default function Questions(){
+
+    const navigate = useNavigate();
+
     return(
         <div className="flex justify-center items-center min-h-screen bg-gray-50 p-4">
   <div className="w-full max-w-3xl bg-white rounded-lg shadow-md p-8">
@@ -26,7 +30,10 @@ export default function Questions(){
     {/* Action Buttons */}
     <div className="flex flex-wrap gap-4 justify-between items-center pt-4 border-t border-gray-200">
       <div className="flex gap-3">
-        <button className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 flex items-center">
+        <button 
+        className="px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 flex items-center"
+        onClick={() => (navigate('/profile'))}
+        >
           <svg className="h-4 w-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
           </svg>
