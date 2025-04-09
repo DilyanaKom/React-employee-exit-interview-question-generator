@@ -21,7 +21,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["management/leadership issues", "lack of career growth", "company direction/strategy"]
+      "reasons": ["management", "career_growth", "company_direction"]
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["management/leadership issues"]
+      "reasons": ["management"]
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["lack of career growth"]
+      "reasons": ["career_growth"]
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["work-life balance", "other"]
+      "reasons": ["worklife", "other"]
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["company direction/strategy"]
+      "reasons": ["company_direction"]
     },
     {
       "id": 8,
@@ -61,7 +61,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["lack of career growth"]
+      "reasons": ["career_growth"]
     },
     {
       "id": 9,
@@ -69,7 +69,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["management/leadership issues"]
+      "reasons": ["management"]
     },
     {
       "id": 10,
@@ -93,7 +93,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["work-life balance"]
+      "reasons": ["worklife"]
     },
     {
       "id": 13,
@@ -117,48 +117,47 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["management/leadership issues"]
+      "reasons": ["management"]
     },
     {
-        "id": 16,
-        "question": "What could the company have done differently to help you better succeed in your role?",
-        "roles": ["individual contributor", "manager", "director", "executive"],
-        "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
-        "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-        "reasons": ["lack of career growth", "work-life balance", "management/leadership issues", "other"]
-      },
-      {
-        "id": 17,
-        "question": "How did you feel about the opportunities for collaboration across different teams and departments?",
-        "roles": ["individual contributor", "manager", "director", "executive"],
-        "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
-        "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-        "reasons": ["company direction/strategy", "lack of career growth"]
-      },
-      {
-        "id": 18,
-        "question": "Was the company’s performance review process effective in recognizing your contributions and providing feedback?",
-        "roles": ["individual contributor", "manager", "director", "executive"],
-        "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
-        "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-        "reasons": ["lack of career growth", "management/leadership issues"]
-      },
-      {
-        "id": 19,
-        "question": "Did you feel that your role offered sufficient variety and challenge, or was it too repetitive?",
-        "roles": ["individual contributor", "manager", "director", "executive"],
-        "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
-        "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-        "reasons": ["work-life balance", "other"]
-      },
-      {
-        "id": 20,
-        "question": "How would you rate the company’s response to external changes (e.g., market shifts, economic conditions) and how they affected your role or department?",
-        "roles": ["individual contributor", "manager", "director", "executive"],
-        "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
-        "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-        "reasons": ["company direction/strategy", "relocation", "other"]
-      }
-
+      "id": 16,
+      "question": "What could the company have done differently to help you better succeed in your role?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["career_growth", "worklife", "management", "other"]
+    },
+    {
+      "id": 17,
+      "question": "How did you feel about the opportunities for collaboration across different teams and departments?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["company_direction", "career_growth"]
+    },
+    {
+      "id": 18,
+      "question": "Was the company’s performance review process effective in recognizing your contributions and providing feedback?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["career_growth", "management"]
+    },
+    {
+      "id": 19,
+      "question": "Did you feel that your role offered sufficient variety and challenge, or was it too repetitive?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["worklife", "other"]
+    },
+    {
+      "id": 20,
+      "question": "How would you rate the company’s response to external changes (e.g., market shifts, economic conditions) and how they affected your role or department?",
+      "roles": ["individual contributor", "manager", "director", "executive"],
+      "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
+      "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
+      "reasons": ["company_direction", "relocation", "other"]
+    }
   ]
   
