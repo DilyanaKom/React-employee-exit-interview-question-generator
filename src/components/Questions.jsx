@@ -1,9 +1,14 @@
 import QuestionItem from "./QuestionItem";
-import { useNavigate } from "react-router";
+import { useNavigate, useLocation } from "react-router";
 
 export default function Questions(){
 
     const navigate = useNavigate();
+
+    const location = useLocation();
+    const selections = location?.state;
+    console.log(selections);
+
 
     return(
         <div className="flex justify-center items-center min-h-screen bg-gray-50 p-4">
