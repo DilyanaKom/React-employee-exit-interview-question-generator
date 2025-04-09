@@ -18,6 +18,12 @@ export default function ProfileSelection() {
             ...prev,
             [id]: value
         }))
+    };
+
+    const handleContinue = () => {
+        navigate('/questions', {
+            state: selections
+        })
     }
 
     return (
@@ -152,7 +158,7 @@ export default function ProfileSelection() {
                             </button>
                             <button 
                             className="px-6 py-2 text-sm font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600"
-                            onClick={() => (console.log(selections))}
+                            onClick={handleContinue}
                             >
                                 Continue
                             </button>
