@@ -45,10 +45,10 @@ export default function ProfileSelection() {
                                 className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
                             >
                                 <option value="" disabled hidden>Select position type</option>
-                                <option value="Individual Contributor">Individual Contributor</option>
-                                <option value="Manager">Manager</option>
-                                <option value="Director">Director</option>
-                                <option value="Executive">Executive</option>
+                                <option value="individual contributor">Individual Contributor</option>
+                                <option value="manager">Manager</option>
+                                <option value="director">Director</option>
+                                <option value="executive">Executive</option>
                             </select>
                             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                 <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -71,16 +71,16 @@ export default function ProfileSelection() {
                                 className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
                             >
                                 <option value="" disabled hidden >Select department</option>
-                                <option value="Engineering">Engineering</option>
-                                <option value="Product">Product</option>
-                                <option value="Design">Design</option>
-                                <option value="Marketing">Marketing</option>
-                                <option value="Sales">Sales</option>
-                                <option value="Customer Support">Customer Support</option>
-                                <option value="Operations">Operations</option>
-                                <option value="Human Resources">Human Resources</option>
-                                <option value="Finance">Finance</option>
-                                <option value="Other">Other</option>
+                                <option value="engineering">Engineering</option>
+                                <option value="product">Product</option>
+                                <option value="design">Design</option>
+                                <option value="marketing">Marketing</option>
+                                <option value="sales">Sales</option>
+                                <option value="customer Support">Customer Support</option>
+                                <option value="operations">Operations</option>
+                                <option value="human Resources">Human Resources</option>
+                                <option value="finance">Finance</option>
+                                <option value="other">Other</option>
                             </select>
                             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                 <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -103,11 +103,11 @@ export default function ProfileSelection() {
                                 className="block w-full px-4 py-3 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-gray-700"
                             >
                                 <option value="" disabled hidden >Select tenure</option>
-                                <option value="Less than 1 year">Less than 1 year</option>
+                                <option value="less than 1 year">Less than 1 year</option>
                                 <option value="1-3 years">1-3 years</option>
                                 <option value="3-5 years">3-5 years</option>
                                 <option value="5-10 years">5-10 years</option>
-                                <option value="More than 10 years">More than 10 years</option>
+                                <option value="more than 10 years">More than 10 years</option>
                             </select>
                             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                 <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
