@@ -8,6 +8,7 @@ export const useGenerateQuestions = (selections) => {
 
     useEffect(() => {
         const filteredQuestions = filterQuestions(selections);
+        console.log(filteredQuestions)
         setFiltered(filteredQuestions);
         setQuestions(getRandomQuestions(filteredQuestions));
     }, [selections]);
