@@ -76,9 +76,9 @@ export default function ProfileSelection() {
                                 <option value="design">Design</option>
                                 <option value="marketing">Marketing</option>
                                 <option value="sales">Sales</option>
-                                <option value="customer Support">Customer Support</option>
+                                <option value="customer support">Customer Support</option>
                                 <option value="operations">Operations</option>
-                                <option value="human Resources">Human Resources</option>
+                                <option value="human resources">Human Resources</option>
                                 <option value="finance">Finance</option>
                                 <option value="other">Other</option>
                             </select>
