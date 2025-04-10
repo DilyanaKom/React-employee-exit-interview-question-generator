@@ -5,7 +5,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance", "other"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["other"]
+      "reasons": ["other", "management", "career_growth", "company_direction", "compensation", "retirement"]
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance", "other"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["other"]
+      "reasons": ["other", "worklife", "career_growth", "company_direction", "retirement", "compensation"]
     },
     {
       "id": 3,
@@ -21,7 +21,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["management", "career_growth", "company_direction"]
+      "reasons": ["management", "career_growth", "company_direction", "compensation", "retirement"]
     },
     {
       "id": 4,
@@ -29,7 +29,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["management"]
+      "reasons": ["management", "career_growth", "company_direction", "retirement", "relocation"]
     },
     {
       "id": 5,
@@ -37,7 +37,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["career_growth"]
+      "reasons": ["career_growth", "management"]
     },
     {
       "id": 6,
@@ -45,7 +45,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["worklife", "other"]
+      "reasons": ["worklife", "other", "career_growth"]
     },
     {
       "id": 7,
@@ -53,7 +53,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["company_direction"]
+      "reasons": ["company_direction", "worklife", "management"]
     },
     {
       "id": 8,
@@ -61,7 +61,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["career_growth"]
+      "reasons": ["career_growth", "compensation", "management"]
     },
     {
       "id": 9,
@@ -69,7 +69,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["management"]
+      "reasons": ["management", "career_growth", "compensation"]
     },
     {
       "id": 10,
@@ -77,7 +77,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["other"]
+      "reasons": ["other", "management", "career_growth", "company_direction", "compensation", "relocation", "retirement"]
     },
     {
       "id": 11,
@@ -85,7 +85,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["other"]
+      "reasons": ["other", "management", "career_growth", "company_direction", "compensation", "relocation", "retirement"]
     },
     {
       "id": 12,
@@ -93,7 +93,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["worklife"]
+      "reasons": ["other", "management", "career_growth", "company_direction", "compensation", "relocation", "retirement"]
     },
     {
       "id": 13,
@@ -101,7 +101,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["other"]
+      "reasons": ["other", "management", "career_growth", "company_direction", "compensation"]
     },
     {
       "id": 14,
@@ -109,7 +109,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["other"]
+      "reasons": ["other", "management", "career_growth", "company_direction", "compensation"]
     },
     {
       "id": 15,
@@ -125,7 +125,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["less than 1 year", "1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["career_growth", "worklife", "management", "other"]
+      "reasons": ["career_growth", "worklife", "management", "other", "compensation"]
     },
     {
       "id": 17,
@@ -133,7 +133,7 @@
       "roles": ["individual contributor", "manager", "director", "executive"],
       "departments": ["engineering", "product", "design", "marketing", "sales", "customer support", "operations", "human resources", "finance"],
       "tenure": ["1-3 years", "3-5 years", "5-10 years", "more than 10 years"],
-      "reasons": ["company_direction", "career_growth"]
+      "reasons": ["company_direction", "career_growth", "relocation", "compensation"]
     },
     {
       "id": 18,
