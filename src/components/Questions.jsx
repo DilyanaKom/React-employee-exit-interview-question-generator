@@ -1,6 +1,6 @@
 import { usePDF } from "react-to-pdf";
 import { useNavigate, useLocation } from "react-router";
-import { useEffect } from "react";
+import { useState } from "react";
 
 import QuestionItem from "./QuestionItem";
 
@@ -8,7 +8,8 @@ import { useGenerateQuestions } from "../hooks/useGenerateQuestions";
 
 export default function Questions() {
   const { toPDF, targetRef } = usePDF({ filename: 'exit-questions.pdf' });
-
+  const [showToast, setShowToast] = useState(false);
+  const [error, setError] = useState(false);
   const navigate = useNavigate();
 
   const location = useLocation();
@@ -22,39 +23,58 @@ export default function Questions() {
 
   const copyHandler = async () => {
     const extractedData = questions.map(question => `${question.question}`).join('\n');
-    //const text = JSON.stringify(extractedData)
-    await navigator.clipboard.writeText(extractedData);
+    try {
+      await navigator.clipboard.writeText(extractedData);
+      setShowToast(true);
+      setTimeout(() => {
+        setShowToast(false)
+      }, 3000);
+    } catch (error) {
+      setError(true);
+    }
+
   }
 
 
   return (
     <div
-   
+
       className="flex justify-center items-center min-h-screen bg-gray-50 p-4">
+      {showToast && (
+        <div className="fixed top-5 right-5 bg-sky-500 text-white px-4 py-3 rounded-md shadow-lg z-50 flex items-center space-x-2 animate-fade-in-out">
+          <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+          </svg>
+          <span>
+            {error
+              ? 'Failed to copy!'
+              : 'Content copied to clipboard!'}</span>
+        </div>
+      )}
       <div className="w-full max-w-3xl bg-white rounded-lg shadow-md p-8">
-        <div 
-        className="mx-auto"
-        ref={targetRef}>
-        <div className="flex justify-between items-center mb-6">
-          <h1 className="text-xl font-bold text-gray-800">Your Exit Interview Questions</h1>
-          <div className="text-sm text-gray-500">
-            <span className="font-medium">Position:</span> {selections.position} |
-            <span className="font-medium ml-2">Department:</span> {selections.department} |
-            <span className="font-medium ml-2">Tenure:</span> {selections.tenure}
+        <div
+          className="mx-auto"
+          ref={targetRef}>
+          <div className="flex justify-between items-center mb-6">
+            <h1 className="text-xl font-bold text-gray-800">Your Exit Interview Questions</h1>
+            <div className="text-sm text-gray-500">
+              <span className="font-medium">Position:</span> {selections.position} |
+              <span className="font-medium ml-2">Department:</span> {selections.department} |
+              <span className="font-medium ml-2">Tenure:</span> {selections.tenure}
+            </div>
           </div>
-        </div>
 
-        <div 
-           className="bg-blue-50 rounded-md p-4 mb-6">
-          <p className="text-sm text-blue-800 text-center">
-            These questions are tailored based on your profile.
-          </p>
-        </div>
+          <div
+            className="bg-blue-50 rounded-md p-4 mb-6">
+            <p className="text-sm text-blue-800 text-center">
+              These questions are tailored based on your profile.
+            </p>
+          </div>
 
-        <div className="space-y-6 mb-8">
-          {questions.map((question, index) => <QuestionItem key={question.id} content={question.question} questionNumber={index + 1} />)}
+          <div className="space-y-6 mb-8">
+            {questions.map((question, index) => <QuestionItem key={question.id} content={question.question} questionNumber={index + 1} />)}
 
-        </div>
+          </div>
         </div>
 
 
@@ -88,16 +108,19 @@ export default function Questions() {
               </svg>
               Export PDF
             </button>
-            <button 
-            onClick={copyHandler}
-            className="px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600 flex items-center">
+            <button
+              onClick={copyHandler}
+              className="px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md hover:bg-blue-600 flex items-center">
               <svg className="h-4 w-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
               </svg>
               Copy All
             </button>
+
+
           </div>
         </div>
+
       </div>
     </div>
   )
