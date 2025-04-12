@@ -4,10 +4,10 @@ A simple React app that generates personalized exit interview questions based on
 
 ## Features
 
-- Select employee **role** and **tenure**
+- Select employee **position**, **department**, **tenure**, **reason**
 - Generate tailored exit interview questions
 - Questions loaded from a static `questions.json` file
-- Export questions as `.txt`, `.csv`, or `.pdf`
+- Export questions as `.pdf` or copy questions
 - (Optional) Use OpenAI API for dynamic question generation
 
 ## Tech Stack
@@ -15,6 +15,7 @@ A simple React app that generates personalized exit interview questions based on
 - React (Vite)
 - Tailwind
 - Static JSON data
+- Vitest
 - No backend required
 
 ## Getting Started
