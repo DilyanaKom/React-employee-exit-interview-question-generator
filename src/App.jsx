@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router"
 import WelcomeScreen from "./components/welcome/Welcome"
-import ProfileSelection from "./components/ProfileSelection"
-import Questions from "./components/Questions"
+import ProfileSelection from "./components/profileSelection/ProfileSelection"
+import Questions from "./components/questions/Questions"
 
 function App() {
 

@@ -2,9 +2,9 @@ import { usePDF } from "react-to-pdf";
 import { useNavigate, useLocation } from "react-router";
 import { useState } from "react";
 
-import QuestionItem from "./questionItem/QuestionItem";
+import QuestionItem from "../questionItem/QuestionItem";
 
-import { useGenerateQuestions } from "../hooks/useGenerateQuestions";
+import { useGenerateQuestions } from "../../hooks/useGenerateQuestions";
 
 export default function Questions() {
   const { toPDF, targetRef } = usePDF({ filename: 'exit-questions.pdf' });
