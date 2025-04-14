@@ -1,4 +1,3 @@
-import { describe, expect, it} from 'vitest';
 import { getRandomQuestions } from '../utils/randomQuestionGenerator';
 
 describe('getRandomQuestions', () => {
