@@ -2,7 +2,7 @@ import { usePDF } from "react-to-pdf";
 import { useNavigate, useLocation } from "react-router";
 import { useState } from "react";
 
-import QuestionItem from "./QuestionItem";
+import QuestionItem from "./questionItem/QuestionItem";
 
 import { useGenerateQuestions } from "../hooks/useGenerateQuestions";
 
