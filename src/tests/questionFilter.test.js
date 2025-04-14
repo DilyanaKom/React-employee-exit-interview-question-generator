@@ -1,4 +1,3 @@
-import {expect, it, describe} from 'vitest';
 import { filterQuestions } from '../utils/questionFilter';
 
 it('True test', () => {
