@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router"
-import WelcomeScreen from "./components/Welcome"
+import WelcomeScreen from "./components/welcome/Welcome"
 import ProfileSelection from "./components/ProfileSelection"
 import Questions from "./components/Questions"
 
