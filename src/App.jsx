@@ -9,7 +9,7 @@ function App() {
   return (
 <>
 <Routes>
-      <Route index element={<WelcomeScreen/>} />
+      <Route path="/" element={<WelcomeScreen/>} />
       <Route path="/profile" element={<ProfileSelection/>}/>
       <Route path="/questions" element={<Questions/>}/>
     </Routes>

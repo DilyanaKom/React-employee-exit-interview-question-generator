@@ -18,7 +18,7 @@ A simple React app that generates personalized exit interview questions based on
 - Vitest
 - No backend required
 
-## Getting Started
+## Live demo
 
-TBC
+(https://storage.googleapis.com/exit-interview/index.html)
 
