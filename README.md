@@ -20,5 +20,5 @@ A simple React app that generates personalized exit interview questions based on
 
 ## Live demo
 
-(https://storage.googleapis.com/exit-interview/index.html)
+(https://exit-interview-questions-generator.netlify.app/)
 
